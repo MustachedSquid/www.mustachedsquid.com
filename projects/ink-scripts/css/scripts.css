@@ -1,0 +1,13 @@
+.desc {
+    border-radius: 5px;
+    border: #16334b solid 3px;
+    border: #16334b solid 3px;
+    width: max-content;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    color: black;
+}
