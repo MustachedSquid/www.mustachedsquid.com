@@ -27,7 +27,7 @@
                                             <a class="funButtons" href="projects/tetris/index.html">[Play]</a>
                                         </td>
                                             <td>
-                                                <a class="sourceCodes" href="https://sr.ht/~mustachedsquid/TetrisClone/"><img class="sourceCodesImg" src="res/img/sourcehut.png"> [Source Code]</a>
+                                                <a class="sourceCodes" href="https://sr.ht/~mustachedsquid/TetrisClone/">[Source Code]</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -38,7 +38,7 @@
                                                 <a class="funButtons" href="projects/ink-scripts/index.html">[View]</a>
                                             </td>
                                             <td>
-                                                <a class="sourceCodes" href="https://sr.ht/~mustachedsquid/ink-scripts/"><img class="sourceCodesImg" src="res/img/sourcehut.png"> [Source Code]</a>
+                                                <a class="sourceCodes" href="https://sr.ht/~mustachedsquid/ink-scripts/">[Source Code]</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -49,7 +49,7 @@
                                                 <a class="funButtons" href="projects/pap_www/index.html">[View]</a>
                                             </td>
                                             <td>
-                                                <a class="sourceCodes" href="https://sr.ht/~mustachedsquid/Projeto-de-Aptidao-Profissional/"><img class="sourceCodesImg" src="res/img/sourcehut.png"> [Source Code]</a>
+                                                <a class="sourceCodes" href="https://sr.ht/~mustachedsquid/Projeto-de-Aptidao-Profissional/">[Source Code]</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -60,7 +60,7 @@
                                                 <a class="funButtons" href="projects/game_of_life/index.html">[View]</a>
                                             </td>
                                             <td>
-                                                <a class="sourceCodes" href="https://git.sr.ht/~mustachedsquid/game_of_life"><img class="sourceCodesImg" src="res/img/sourcehut.png"> [Source Code]</a>
+                                                <a class="sourceCodes" href="https://git.sr.ht/~mustachedsquid/game_of_life">[Source Code]</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -71,7 +71,7 @@
                                                 <a class="funButtons" href="projects/ps3js/index.html">[View]</a>
                                             </td>
                                             <td>
-                                                <a class="sourceCodes" href="https://git.sr.ht/~mustachedsquid/ps3js"><img class="sourceCodesImg" src="res/img/sourcehut.png"> [Source Code]</a>
+                                                <a class="sourceCodes" href="https://git.sr.ht/~mustachedsquid/ps3js">[Source Code]</a>
                                             </td>
                                         </tr>
 
