@@ -1,0 +1,77 @@
+body{
+	background-color:#8aceff;
+	font-family:Verdana;
+}
+
+#titulo{
+	display:inline;
+}
+
+#titulo, #cabecalho, #conteudo, #menuligacoes{
+	width: max-content;
+	background-color:White;
+	margin-left: auto;
+        margin-right: auto;
+}
+#JogoMem{ 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p{
+    margin-left: 350px;
+    margin-right: 350px;
+
+}
+
+#menuligacoes{
+        border-top: 1px solid black;
+	border-bottom: 4px solid black;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+}
+#cabecalho{
+        border-top: 4px solid black;
+	border-bottom: 1px solid black;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	margin-bottom: 0%;
+        text-align: center;  
+}
+
+
+#conteudo {
+	background-color:White;
+        border-top: 4px solid black;
+       	border-left: 4px solid black;
+	border-right: 4px solid black;
+        border-bottom: 1px solid black;
+}
+
+.butao {
+    background-color: aqua;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.butao:hover {
+    background-color: aquamarine;
+    
+    
+}
+
+.butao:active {
+    background-color: aqua;
+    margin-top: 6px;
+    margin-left: 6px;
+    padding: 9px 29px;
+}

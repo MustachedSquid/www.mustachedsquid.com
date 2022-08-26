@@ -1,0 +1,29 @@
+image: alpine/edge
+secrets:
+- 371cdbfc-09ac-410c-a24f-cd226cce072d
+sources:
+- https://git.sr.ht/~mustachedsquid/www.mustachedsquid.com
+- https://git.sr.ht/~mustachedsquid/memory
+- https://git.sr.ht/~mustachedsquid/tetris
+- https://git.sr.ht/~mustachedsquid/pap_www
+- https://git.sr.ht/~mustachedsquid/game_of_life
+- https://git.sr.ht/~mustachedsquid/ps3js
+environment:
+  site: www.mustachedsquid.com
+tasks:
+- setup: |
+    rm -rf memory/.git
+    rm -rf tetris/.git
+    rm -rf pap_www/.git
+    rm -rf game_of_life/.git
+    rm -rf www.mustachedsquid.com/.git
+    rm -rf ps3js/.git
+    cp -r ps3js $site/projects
+    cp -r memory $site/projects
+    cp -r tetris $site/projects
+    cp -r pap_www $site/projects
+    cp -r game_of_life $site/projects
+    rm $site/php/config.php
+- upload: |
+    cd $site
+    scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -P 666 -r . uploader@ssh.mustachedsquid.com:/srv/http/www.mustachedsquid.com/

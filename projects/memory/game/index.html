@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memory game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/main.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/estilo.css" type="text/css" rel="stylesheet"/>
+
+
+    <script>
+
+        /*
+        $clas = array();
+
+        $j=1;
+        for($i=1;$i<=$n;$i++){
+            $clas[$i] = $j;
+            $i++;
+            $clas[$i] = $j;
+
+            $j++;
+        }
+
+        shuffle($clas);
+
+        for($i=1;$i<=$n;$i++){
+            $c = $clas[$i-1];
+            //echo '<div class="botdiv"><button id="'.$i.'" class="'.$c.'" onclick="buttonPress('.$i.', '. $c.')"><img src="../imagens/i0.png"></button></div>';
+            echo '<button id="'.$i.'" class="'.$c.'" onclick="buttonPress('.$i.', '. $c.')"><img src="../imagens/i0.png"></button>';
+            if(($i % 6) === 0){
+                echo '<br>';
+            }
+        }
+         */
+
+        function shuffle(a) {
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+
+        function create_buttons(){
+            let clas = [];
+
+            let j = 1;
+            for (let i = 1; i <= 36; i++) {
+
+                clas[i-1] = j;
+                i++
+                clas[i-1] = j
+                j++
+
+
+            }
+
+            shuffle(clas);
+
+
+            for (let i = 1; i <= 36; i++) {
+
+                let conteudo = document.getElementById("conteudo");
+
+                let c = clas[i-1];
+
+                let button = document.createElement("button");
+
+                button.id = i;
+                button.className = c;
+                button.innerHTML = '<img src="../imagens/i0.png">';
+                button.addEventListener('click', function (){
+                    buttonPress(i, c);
+                });
+
+                conteudo.appendChild(button);
+                if((i % 6) === 0){
+
+                    let br = document.createElement("br");
+
+                    conteudo.appendChild(br);
+
+
+                }
+
+            }
+
+            let link = document.createElement("script");
+
+            link.src = "jogo.js";
+            document.head.appendChild(link)
+
+        }
+
+
+
+
+
+        window.addEventListener("load", create_buttons);
+
+
+    </script>
+
+
+</head>
+<body>
+
+
+<div id="conteudo">
+
+
+
+</div>
+
+
+
+</body>
+</html>

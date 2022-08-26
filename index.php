@@ -18,7 +18,11 @@
                                 </ul>
                                 <h4>Stuff I made:</h4>
 
+                                <h5>Art <a class="funButtons" href="art/">[View]</a></h5>
+
+                                <h4>Software:</h4>
                                 <table class="projectsTable">
+                                    
                                     <tr>
                                        <td>
                                             Tetris Clone
@@ -82,17 +86,10 @@
                             </div>
                             <div class="separator" id="sepB"></div>
 
-                            <div class="sections" id="guestbook">
-                                <ul>
-                                    <li><a href="/guestbook.php">Guestbook</a></li>
-                                </ul>
-                            </div>
-
-
                             <div class="separator" id="sepC"></div>
                             <div class="sections" id="links">
                                 <h4>Contacts</h4>
-                                 <a class="contacts" href="https://github.com/MustachedSquid"><img class="contactsImg" src="res/img/GitHub-Mark-Light-32px.png"></a><a class="contacts" href="mailto:contact@mustachedsquid.com"><img class="contactsImg" src="res/img/Gmail_logo.png"></a>
+                                 <a class="contacts" href="https://sr.ht/~mustachedsquid/"><img class="contactsImg" src="res/img/sourcehut.png"></a><a class="contacts" href="https://github.com/MustachedSquid"><img class="contactsImg" src="res/img/GitHub-Mark-Light-32px.png"></a><a class="contacts" href="mailto:contact@mustachedsquid.com"><img class="contactsImg" src="res/img/Gmail_logo.png"></a>
                             </div>';
 
     create_header();

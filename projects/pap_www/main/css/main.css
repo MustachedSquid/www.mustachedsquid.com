@@ -1,0 +1,55 @@
+body {
+    font-family: "monospace", monospace;
+    margin: 0;
+    background-color: white;
+}
+
+#centro {
+    margin: auto;
+    width: 50%;
+}
+
+
+#titulo {
+    text-align: center;
+}
+
+#cb {
+    text-align: center;
+}
+.bf {
+
+    width: max-content;
+    font-size: 15pt;
+    height: 2em;
+    margin: 10px;
+    color: black;
+    background-color: white;
+    border: #ffde00 solid 5px;
+    border-radius: 5px;
+}
+
+.bf:hover {
+
+    background-color: #ffde00;
+    border: #ffde00 solid 5px;
+
+}
+
+@keyframes funButton {
+   14% { color: red; }
+   28% { color: orange; }
+   42% { color: yellow; }
+   56% { color: green; }
+   70% { color: blue; }
+   84% { color: purple }
+   98% { color: rebeccapurple; }
+}
+
+#exp {
+    
+    animation-name: funButton;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: alternate;
+}

@@ -6,8 +6,9 @@ html {
 
 body {
     background-color: #112434;
-    background-image: url("/res/img/squid_blue_background.png");
+    background-image: url("/res/img/wallpaper.png");
     background-repeat: repeat;
+    background-size: cover;
     padding: 0;
     margin: 5px;
     color: white;
@@ -103,7 +104,7 @@ table {
    animation-iteration-count: infinite;
    animation-duration: 2s;
    margin: 5px;
-   border: 2px solid #y;
+   border: 2px solid;
 }
 
 #sepB {
@@ -150,4 +151,9 @@ a {
 
 .navTable {
     width: 25%;
+}
+
+.art_img {
+    width: 100%;
+    margin-bottom: 10px;
 }
